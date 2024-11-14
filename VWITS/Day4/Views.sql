@@ -20,7 +20,7 @@ select * from linkedin_job_us
 
 -- COMMAND ----------
 
-show views
+show vie
 
 -- COMMAND ----------
 
@@ -29,6 +29,12 @@ create global temp view linked_job_country_wise as
 
 -- COMMAND ----------
 
+-- views
+show views
+
+-- COMMAND ----------
+
+-- global temp
 show views in global_temp
 
 -- COMMAND ----------
