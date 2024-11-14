@@ -7,8 +7,14 @@
 -- MAGIC
 -- MAGIC liquid clusting
 -- MAGIC
--- MAGIC vacuum
 
 -- COMMAND ----------
 
-select * from tblname
+--make changes and read bronze table
+select * from sales
+
+
+select * from bronze.sales
+
+
+df=spark.read.csv("path")
