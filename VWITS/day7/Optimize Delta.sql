@@ -10,6 +10,20 @@
 
 -- COMMAND ----------
 
+optimize tablename
+zorder by (order_id,date)
+
+-- COMMAND ----------
+
+select * from tbalnaem wher order_id=
+
+-- COMMAND ----------
+
+adversely effect
+select * from tblname where pincode=
+
+-- COMMAND ----------
+
 --make changes and read bronze table
 select * from sales
 

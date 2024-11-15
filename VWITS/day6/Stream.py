@@ -42,5 +42,14 @@ df=spark.readStream.schema(schema).csv("dbfs:/mnt/nyadls/raw/stream_in/",header=
 
 # COMMAND ----------
 
+key value topic partition offset timestamp
+binary binary string 
+
+# COMMAND ----------
+
+
+
+# COMMAND ----------
+
 # MAGIC %sql
 # MAGIC select * from vwits.bronze.stream
